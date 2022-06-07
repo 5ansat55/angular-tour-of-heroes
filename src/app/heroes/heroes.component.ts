@@ -8,7 +8,7 @@ import { Heroes } from '../mock-heroes';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
-  heroes:Hero[] = Heroes;
+  heroes : Hero[] = Heroes;
   selectedHero ?: Hero;
   constructor() { }
 
